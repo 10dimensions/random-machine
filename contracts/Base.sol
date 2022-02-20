@@ -4,8 +4,8 @@ pragma solidity ^0.8.0;
 
 import "@openzeppelin/contracts-upgradeable/access/OwnableUpgradeable.sol";
 
-import "contracts/Proxy/Proxiable.sol";
-import "contracts/Core/RandomMachine.sol";
+import "contracts/proxy/Proxiable.sol";
+import "contracts/core/RandomMachine.sol";
 
 contract BaseContract is OwnableUpgradeable, RandomMachine, Proxiable {
 
